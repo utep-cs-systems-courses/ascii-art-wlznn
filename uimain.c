@@ -29,6 +29,15 @@ int main()
       for (char c = 'A'; c < 'D'; c++)
 	print_char_11x16(c);
       break;
+    case 'f':
+      puts("You selected new font");
+      for (char c = 'A'; c < 'D'; c++)
+	print_char_5x7(c);
+      break;
+    case 'a':
+      puts("You selected arrow:");
+      print_arrow(6,6);
+      break;
     case 'q':
       puts("Bye!");
       goto done; 		/* terminate */
